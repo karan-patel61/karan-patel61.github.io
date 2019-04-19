@@ -32,6 +32,13 @@ body{
     margin-top: 12%;
 }
 .col{
-    color: white;
     text-align: center;
+}
+.card-body{
+    color: white;
+    background: rgba(61,53,64,0.91);
+}
+.card-title{
+    text-decoration-line: underline;
+    text-decoration-color: white;
 }
