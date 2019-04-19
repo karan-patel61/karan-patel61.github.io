@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+}
+body{
+    border: dotted;
+    border-color: transparent;
+    min-height: 100%;
+    background-image: linear-gradient( to bottom,black, #510051);
+}
+.nav-bar{
+    margin-top: 1.6%;
+}
+.nav-link{
+    color: white;
+    border: solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: white;
+    margin: 0px 3px 0px 3px;
+}
+.active{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+h1, h3{
+    color: #fff7ec;
+    text-align: center;
+}
+#titlePage{
+    width: 80%;
+    margin: 5% auto auto auto;
+}
+
+#content{
+    text-align: center;
+}
+a:hover{
+    color: transparent;
+    text-decoration: none;
+}
+.btn-outline-dark{
+    border-color: transparent;
+    color: rgba(61, 53, 64, 0.91);
+}
+.btn-outline-dark:hover{
+    border-color: white;
+}
+.btn:hover{
+    background: none;
+    background-color: transparent;
+}
+

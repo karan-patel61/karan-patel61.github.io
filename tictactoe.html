@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tictactoe.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>KaranPatel CV</title>
+</head>
+<body>
+
+    <!--Navigation Bar -->
+    <div class="nav-bar">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+    <!--Tic Tac Toe Game -->
+    <div class="container">
+        <div id="tableTitle">
+            <label style="text-decoration-line: underline"> Tic-Tac-Toe</label>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table id="game">
+                    <tr>
+                        <td id="C1" onclick="mark(1)"> Item 1</td>
+                        <td id="C2" onclick="mark(2)"> Item 2</td>
+                        <td id="C3" onclick="mark(3)"> Item 3</td>
+                    </tr>
+                    <tr>
+                        <td id="C4" onclick="mark(4)"> Item 4</td>
+                        <td id="C5" onclick="mark(5)"> Item 5</td>
+                        <td id="C6" onclick="mark(6)"> Item 6</td>
+                    </tr>
+                    <tr>
+                        <td id="C7" onclick="mark(7)"> Item 7</td>
+                        <td id="C8" onclick="mark(8)"> Item 8</td>
+                        <td id="C9" onclick="mark(9)"> Item 9</td>
+                    </tr>
+                </table>
+                <label id="status"> New Game Started! Player X goes first!</label>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/tictactoe.js"></script>
+</body>
+</html>

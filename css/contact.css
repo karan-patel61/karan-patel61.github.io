@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+}
+body{
+    border: dotted;
+    border-color: transparent;
+    min-height: 100%;
+    background-image: linear-gradient( to bottom,black, #510051);
+}
+#info{
+    margin: 5% auto auto auto;
+}
+
+.nav-bar{
+    margin-top: 1.6%;
+}
+.nav-link{
+    color: white;
+    border: solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: white;
+    margin: 0px 3px 0px 3px;
+}
+.active{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+h1, h3{
+    color: #fff7ec;
+    text-align: center;
+}
+#content, #content2{
+    text-align: center;
+    color: white;
+}

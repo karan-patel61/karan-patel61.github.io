@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+}
+body{
+    border: dotted;
+    border-color: transparent;
+    min-height: 100%;
+    background-image: linear-gradient( to bottom,black, #510051);
+
+}
+.nav-bar{
+    margin-top: 1.6%;
+}
+.nav-link{
+    color: white;
+    border: solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: white;
+    margin: 0px 3px 0px 3px;
+}
+.active{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.container{
+    margin-top: 2.5%;
+
+}
+.col{
+    text-align: center;
+    color: white;
+}
+#game{
+    width: 40%;
+    margin:  auto;
+}
+#tableTitle {
+    width: 80%;
+    margin: 0 auto 5% auto;
+    color: white;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+
+}
+#C2, #C8{
+    border-color: white;
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+#C4, #C6{
+    border-color: white;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+#C5{
+    border-color: white;
+    border: solid 1px;
+}
+
+#status{
+    margin-top: 20px;
+}
