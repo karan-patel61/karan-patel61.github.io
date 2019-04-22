@@ -1,9 +1,11 @@
 html{
     height: 100%;
+    background-image: linear-gradient( to bottom,black, #510051);
 }
 body{
     border: dotted;
     border-color: transparent;
+
     min-height: 100%;
     background-image: linear-gradient( to bottom,black, #510051);
 
@@ -33,6 +35,9 @@ body{
 }
 .col{
     text-align: center;
+}
+.card{
+    margin-top: 10px;
 }
 .card-body{
     color: white;
