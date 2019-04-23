@@ -34,7 +34,6 @@ easyButton.addEventListener("click", function () {
     while(hardButton.classList.contains("selected")){
         hardButton.classList.remove("selected");
     }
-
     easyButton.classList.add("selected");
     easyMode();
     numofSquares = 3;
@@ -75,6 +74,7 @@ colorDisplay.textContent = pickedColor.toUpperCase();
 //MAIN
 for(var i =0; i<colors.length;i++){
     squares[i].style.backgroundColor = colors[i];
+    squares[i].classList.add("fade-in");
     squares[i].addEventListener("click", function () {
         var colorClicked = this.style.backgroundColor;
         console.log(colorClicked +" color picked: "+ pickedColor);
@@ -83,6 +83,7 @@ for(var i =0; i<colors.length;i++){
             colorAll(colorClicked);
         }
         else {
+            this.style.transition = 'ease-out 1s';
             this.style.backgroundColor = '#2e2e2e';
         }
     })
@@ -91,9 +92,11 @@ for(var i =0; i<colors.length;i++){
 
 //color all the square this color
 function colorAll(color) {
+    //$("#colors div").fadeIn(1000);
 
     for(var i=0; i < numofSquares; i++){
         squares[i].style.backgroundColor = color;
+
     }
     msg.textContent = "Correct!";
     resetButton.textContent = "PLAY AGAIN?"
